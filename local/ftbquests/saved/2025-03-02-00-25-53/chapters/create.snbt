@@ -1,0 +1,116 @@
+{
+	autofocus_id: "702C9C6A2D0F9966"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:wrench"
+	id: "7D9DD1773CCD9624"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "702C9C6A2D0F9966"
+			rewards: [
+				{
+					id: "42D142AF91FDAD56"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "35D492A1C262E52A"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51C15889BEC18677"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["702C9C6A2D0F9966"]
+			id: "3E297C8C520F2ADE"
+			rewards: [{
+				id: "02E37F000EC54C81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0A477D352BD19045"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "1AD695E93356C359"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Creating rotation"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "21399AB802762D10"
+			rewards: [{
+				id: "198D3BDA5E82BC1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DD4F95AB627B4D6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "002F12CDCDA32549"
+			rewards: [{
+				id: "328B7A87570BDC76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "326ACF0DF407AE93"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "592F2CB6B4D6D8BE"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "722B7F58C322EF31"
+			rewards: [{
+				id: "38CDA4F131284B3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "538165473FB280E5"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+	]
+	title: "Create"
+}

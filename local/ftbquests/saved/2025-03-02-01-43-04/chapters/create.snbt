@@ -1,0 +1,297 @@
+{
+	autofocus_id: "702C9C6A2D0F9966"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:wrench"
+	id: "7D9DD1773CCD9624"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "702C9C6A2D0F9966"
+			rewards: [
+				{
+					id: "42D142AF91FDAD56"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 16
+					id: "35D492A1C262E52A"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "51C15889BEC18677"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47340899AC686894"]
+			id: "3E297C8C520F2ADE"
+			rewards: [{
+				id: "02E37F000EC54C81"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0A477D352BD19045"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "1AD695E93356C359"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Creating rotation"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "21399AB802762D10"
+			rewards: [{
+				id: "198D3BDA5E82BC1E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6DD4F95AB627B4D6"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "002F12CDCDA32549"
+			rewards: [{
+				id: "328B7A87570BDC76"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "326ACF0DF407AE93"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "592F2CB6B4D6D8BE"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "722B7F58C322EF31"
+			rewards: [{
+				id: "38CDA4F131284B3D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "538165473FB280E5"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "440D22B8D30C8250"
+			tasks: [{
+				id: "691770B7ADDD2AB8"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "7BB6E7C3C3C07F84"
+			rewards: [{
+				id: "509A72CFDB76C740"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "596C2AC4B69EF76C"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["702C9C6A2D0F9966"]
+			id: "47340899AC686894"
+			rewards: [
+				{
+					count: 16
+					id: "5CF653F8609805BB"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "61F8343ADBF610E2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "637BB873DF3865C1"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "Andesite tier"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3E297C8C520F2ADE"]
+			id: "291F4374385703AA"
+			rewards: [{
+				id: "7994F7EF9AD687A8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31DCC3A0C2B29E03"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3E297C8C520F2ADE"
+				"002F12CDCDA32549"
+			]
+			id: "3BC7FC203CFECDF3"
+			rewards: [{
+				id: "33AF83FA086B0929"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4A7607A3B3C8BC6D"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "4A22F1CC53B81FCA"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BC7FC203CFECDF3"]
+			id: "3E033B94AB87A124"
+			rewards: [
+				{
+					count: 16
+					id: "5622E48AD7A3FAC7"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "42EC223C17C8ACF3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1A38CCEFA8D29150"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3BC7FC203CFECDF3"]
+			id: "158BA25AA17E334F"
+			tasks: [{
+				id: "3ED09C725E49C721"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "Brass Tier"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["158BA25AA17E334F"]
+			id: "630C05682C0042B3"
+			rewards: [{
+				id: "73CBB0EA8811C55F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "46BF68603FAA82C3"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["158BA25AA17E334F"]
+			id: "74842962634CF2D4"
+			rewards: [{
+				id: "569E37AA5B55E89D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 2L
+				id: "15AEE865C719C35A"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["158BA25AA17E334F"]
+			id: "6ECB82DEB50C6D08"
+			tasks: [
+				{
+					id: "393B70326B3956CB"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "09947BE342D36A31"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.5d
+		}
+	]
+	title: "Create"
+}

@@ -1,0 +1,16 @@
+{
+	version: 1
+	uuid: "0b7d5d82e10546a2b072d55578ea6192"
+	name: "janko2222#0b7d5d82"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: {
+		0b7d5d82e10546a2b072d55578ea6192: {
+			can_edit: 1b
+		}
+	}
+}

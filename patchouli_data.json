@@ -1,0 +1,28 @@
+{
+  "bookGuiScale": 0,
+  "clickedVisualize": false,
+  "bookData": {
+    "ars_nouveau:worn_notebook": {
+      "viewedEntries": [
+        "ars_nouveau:resources/wilden",
+        "ars_nouveau:resources/weald_walker",
+        "ars_nouveau:rituals/ritual_animal_summon",
+        "ars_nouveau:glyphs_3/glyph_summon_decoy",
+        "ars_nouveau:glyphs_3/glyph_split",
+        "ars_nouveau:glyphs_3/glyph_wither",
+        "ars_nouveau:glyphs_3/glyph_wall",
+        "ars_nouveau:glyphs_3/glyph_summon_vex",
+        "ars_nouveau:glyphs_3/glyph_glide",
+        "ars_nouveau:rituals/ritual_wilden_summon",
+        "ars_nouveau:source/source_jar",
+        "ars_nouveau:getting_started/world_generation",
+        "ars_nouveau:machines/imbuement_chamber",
+        "ars_nouveau:resources/sourceberry",
+        "ars_nouveau:resources/archwood",
+        "ars_nouveau:armor/armor"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
