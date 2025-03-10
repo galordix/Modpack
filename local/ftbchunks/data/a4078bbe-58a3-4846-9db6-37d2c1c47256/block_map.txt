@@ -39,6 +39,7 @@
 #482EEB minecraft:glowstone
 #2C1BE1 minecraft:gold_block
 #35D413 aether:golden_oak_leaves
+#D84E03 aether:golden_oak_log
 #060B35 minecraft:granite
 #3F84B7 minecraft:grass_block
 #88BAFA minecraft:gravel
@@ -77,6 +78,7 @@
 #BFBC47 aether:quicksoil
 #7C5ED3 create:railway_casing
 #213091 minecraft:raw_copper_block
+#5181F5 create:redstone_requester
 #24BE64 minecraft:redstone_torch
 #86FC77 minecraft:sand
 #7E2654 minecraft:sandstone

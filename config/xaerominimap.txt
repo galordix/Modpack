@@ -22,7 +22,7 @@ lockNorth:false
 zoom:0
 minimapSize:0
 chunkGrid:-1
-slimeChunks:false
+slimeChunks:true
 mapSafeMode:false
 minimapOpacity:100.0
 waypointsIngameIconScale:0
